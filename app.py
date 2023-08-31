@@ -8,7 +8,7 @@ load_dotenv()
 app = Flask(__name__)
 
 app.config['MAIL_SERVER'] = str(os.getenv('MAIL_SERVER'))
-app.config['MAIL_PORT'] = int(os.getenv('MAIL_PORT'))
+app.config['MAIL_PORT'] = str(os.getenv('MAIL_PORT'))
 app.config['MAIL_USERNAME'] = str(os.getenv('MAIL_USERNAME'))
 app.config['MAIL_PASSWORD'] = str(os.getenv('MAIL_PASSWORD'))
 app.config['MAIL_USE_TLS'] = True
