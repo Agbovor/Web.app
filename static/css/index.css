@@ -6,13 +6,13 @@ body {
     color: #333;
   }
 
-  /* styles.css */
-/* .background-image {
-  background-image: url("file:///home/test/Desktop/Flask/static/img/9070071.webp");
+  styles.css */
+background-image {
+  background-image: url("file:///home/test/Downloads/9070075.png");
   background-size: cover; /* Adjust as needed */
-  /* background-repeat: no-repeat;
-  background-attachment: fixed; Optional */ */
-  /* Other styling properties if needed */
+  background-repeat: no-repeat;
+  background-attachment: fixed; Optional
+  Other styling properties if needed
 }
 
   .container {
