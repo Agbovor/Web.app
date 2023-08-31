@@ -16,7 +16,7 @@ app.config['MAIL_USE_SSL'] = False
 
 mail = Mail(app)
 
-@app.route('/mail')
+@app.route('/')
 def send():
     message = Message(
         subject= "Button Event",
