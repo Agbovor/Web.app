@@ -1,130 +1,235 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
-  }
+*{
+  margin: 50;
+  padding: 0;
 
-  styles.css */
-background-image {
-  background-image: url("file:///home/test/Downloads/9070075.png");
-  background-size: cover; /* Adjust as needed */
+}
+body{
+  background-image: url(images/City_85.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed; Optional
-  Other styling properties if needed
+  background-size: cover;
+  background-position: center;
 }
 
-  .container {
-    text-align: center;
-    padding: 100px;
-  }
+.main{
+  width: 100;
+  background: linear-gradient(to top, rgba(82, 9, 199, 0.5)50%),rgba(27, 9, 189, 0.5)50;
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+  float: left;
+}
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
 
-  h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
+}
+.icon{
+  width: 100px;
+  float: left;
+  height: 70px;
 
-  p {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
+}
+.logo{
+  color: #12e343;
+  font: optional 100px;
+  font-family: Arial;
+  padding-left: 10px;
+  float: left;
+  padding-top: 10;
+}
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+   
+}
+ul{
+  float: left;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-  }
+ul li{
 
-  .button:hover {
-    background-color: #0056b3;
-  }
-
-
-
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-
-    .welcome-container {
-        text-align: center;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    h1 {
-        color: #333;
-    }
-
-    p {
-        color: #666;
-    }
-
-    .btn {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        text-decoration: none;
-        transition: background-color 0.3s ease;
-    }
-
-    .btn:hover {
-        background-color: #0056b3;
-    }
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14;
+}
+ul li a{
+  text-decoration: none;
+  color: floralwhite;
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
 
 
+}
 
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-    }
-    .container {
-      max-width: 400px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    .form-group {
-      margin-bottom: 15px;
-    }
-    label {
-      display: block;
-      margin-bottom: 5px;
-      font-weight: bold;
-    }
-    input[type="text"], input[type="email"], textarea {
-      width: 100%;
-      padding: 8px;
-      border: 1px solid #ccc;
-      border-radius: 3px;
-    }
-    button {
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      border-radius: 3px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #0056b3;
-    }
+ul li a:hover{
+  color: #e36912;
+
+}
+.Search{
+  width: 30px;
+  float: left;
+  margin-top: 50px;
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 40;
+  background-color: transparent;
+  border: 1px solid #e36912;
+  margin-top: 30px;
+  margin-left: 25px;
+  color: aliceblue;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+ border-top-left-radius: 10px; 
+ border-bottom-left-radius: 10px;
+ 
+
+
+
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  background: #e36912;
+  border: 2px solid #e36912;
+  margin-top: 30px;
+  color: aliceblue;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+.btn:focus{
+  outline: none;
+  
+}
+
+
+
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: white;
+  position: relative;
+}
+
+.content.par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+
+}
+.content .cn{
+  width: 160px;
+  height: 40px;
+  background: #e36912;
+  border: none;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s ease;
+}
+.content .cn a{
+  text-decoration: none;
+  color: black;
+  transform: .3s ease;
+}
+.cn:hover{
+  background-color: white;
+}
+.content span{
+  color: #e36912;
+  font-size: 60px;
+}
+
+.form{
+  width: 250px;
+  height: 380px;
+  background-color: rgb(238, 47, 255);
+  position: absolute;
+  top: -20px;
+  left: 870px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.form h2{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #12e343;
+  font-size: 22px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+.form input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #e36912;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: aliceblue;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+.form h2{
+width: 220px;
+font-family: sans-serif;
+text-align: center;
+color: #e36912;
+font-size: 22px;
+background-color: white;
+border-radius: 10px;
+margin: 2px;
+padding: 8px;
+
+}
+.form input{
+width: 240px;
+height: 35px;
+background: transparent;
+border-bottom: 1px solid #e36912;
+border-top: none;
+border-right: none;
+border-left: none;
+color: white;
+font-size: 15px;
+letter-spacing: 1px;
+margin-top: 30px;
+font-family: sans-serif;
+
+}
+  
+  
+  
+  
